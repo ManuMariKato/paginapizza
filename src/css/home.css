@@ -1,0 +1,17 @@
+.banner_imagem{
+    float: right; width: 250px;
+}
+#banner_pizzapicles{
+    position: absolute; right: 500px;
+    top: 280px;
+}
+#banner_pizzapeperoni{
+    width: 190px;
+    position: absolute; right: 300px;
+    top: 500px;
+}
+#banner_pizzacalabresa{
+    width: 190px;
+    position: absolute; right:700px;
+    top: 500px;
+}
