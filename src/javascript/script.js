@@ -53,4 +53,19 @@ $(document).ready(function() {
         duration: 1000,
         distance: '20%'
     });
+    ScrollReveal().reveal('footer', {
+        duration: 1000,
+        distance: '20%',
+        opacity: 0.1
+    });
+    ScrollReveal().reveal('#banner_pizzamangericao', {
+        origin: 'right',
+        duration: 2000,
+        distance: '50%',
+        rotate: {
+        x: 0,
+        y: 0,
+        z: 100
+        }
+    });
 });

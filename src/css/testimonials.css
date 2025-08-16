@@ -5,9 +5,19 @@
     justify-content: center;
     gap:48px;
 }
+.fundo_pizzaiolo{
+    background-color: var(--cor-quartenaria);
+    width: 50%;
+    height: 100%;
+    border-radius: 40% 30% 0% 20%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
 #testimonial_pizzaiolo{
     width: 700px;
     height: auto;
+    z-index: 2;
 }
 .feedback_avatar{
     width: 100px;
