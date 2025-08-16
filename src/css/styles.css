@@ -3,20 +3,36 @@
 @import url("header.css");
 @import url("home.css");
 @import url("testimonials.css");
+@import url("footer.css");
+:root{
+    --cor-principal:#fff9ea;
+    --cor-secundaria:#e9a209;
+    --cor-terciaria: #1d1d1d;
+    --cor-quartenaria: #ffe8b4;
+    --cor-quintenaria:#ffe100;
+    --cor-sextenaria: #ffcb45;
+    --cor-hover: #ffe091;
+    --branco: #ffffff;
+    --cor-neutra: #fff;
+    --sombra: 0px 0px 12px 4px rgba(0,0,0,0.1);
+}
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
-    background-color: #fff9ea;
+    background-color: var(--cor-principal);
 }
 section{
     padding: 28px 8%;
 }
 .section_title{
-    color: #e9a209;
+    color: var(--cor-secundaria);
     font-size: 1.563rem;
 }
 .section_subtitle{
