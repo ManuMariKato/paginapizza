@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/css/styles.css">
-    <link rel="stylesheet" href="src/css/header.css">
-    <link rel="stylesheet" href="src/css/home.css">
-    <link rel="stylesheet" href="src/css/menu.css">
     <link rel="shortcut icon" href="src/img/pizzapicles.png" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Página Inicial</title>
@@ -90,105 +87,143 @@
             <h3 class="section_subtitle">Nossos pratos especiais</h3>
             <div id="dishes">
                 <div class="dish">
-                    <div id="pizza_calabresa">
-                        <div class="dish_heart">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                        <img class="dish_image" src="src/img/pizzacalabresa.png" alt="pizza de calabresa">
-                        <h3 class="dish_title">pizza de calabresa</h3>
-                        <span class="dish_description">descrição da pizza de calabresa</span>
-                        <div class="dish_rate">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <span>(500+)</span>
-                        </div>
-                        <div class="dish_price">
-                            <h4>R$20,00</h4>
-                            <button class="btn_default">
-                                <i class="fa-solid fa-basket-shopping"></i>
-                            </button>
+                    <div class="dish_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img class="dish_image" id="pizzacalabresa" src="src/img/pizzacalabresa.png" alt="pizza de calabresa">
+                    <h3 class="dish_title">pizza de calabresa</h3>
+                    <span class="dish_description">descrição da pizza de calabresa</span>
+                    <div class="dish_rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish_price">
+                        <h4>R$20,00</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img class="dish_image" id="pizzapeperoni" src="src/img/pizzapeperoni.png" alt="pizza de peperoni">
+                    <h3 class="dish_title">pizza de peperoni</h3>
+                    <span class="dish_description">descrição da pizza de peperoni</span>
+                    <div class="dish_rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish_price">
+                        <h4>R$20,00</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
                         </div>
                     </div>
-                    <div id="pizza_peperoni">
-                        <div class="dish_heart">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-
-                        <img class="dish_image" id="pizzapeperoni" src="src/img/pizzapeperoni.png" alt="pizza de peperoni">
-
-                        <h3 class="dish_title">pizza de peperoni</h3>
-
-                        <span class="dish_description">descrição da pizza de peperoni</span>
-
-                        <div class="dish_rate">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <span>(500+)</span>
-                        </div>
-
-                        <div class="dish_price">
-                            <h4>R$20,00</h4>
-                            <button class="btn_default">
-                                <i class="fa-solid fa-basket-shopping"></i>
-                            </button>
-                        </div>
+                <div class="dish">
+                    <div class="dish_heart">
+                        <i class="fa-solid fa-heart"></i>
                     </div>
-                    <div id="pizza_picles">
-                        <div class="dish_heart">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                        <img class="dish_image" src="src/img/pizzapicles.png" alt="pizza de picles">
-                        <h3 class="dish_title">pizza de picles</h3>
-                        <span class="dish_description">descrição da pizza de picles</span>
-                        <div class="dish_rate">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <span>(500+)</span>
-                        </div>
-                        <div class="dish_price">
-                            <h4>R$20,00</h4>
-                            <button class="btn_default">
-                                <i class="fa-solid fa-basket-shopping"></i>
-                            </button>
-                        </div>
+                    <img class="dish_image" id="pizzapicles" src="src/img/pizzapicles.png" alt="pizza de picles">
+                    <h3 class="dish_title">pizza de picles</h3>
+                    <span class="dish_description">descrição da pizza de picles</span>
+                    <div class="dish_rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
                     </div>
-                    <div id="pizza_queijo">
-                        <div class="dish_heart">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-
-                        <img class="dish_image" src="src/img/pizzaqueijo.png" alt="pizza de queijo">
-
-                        <h3 class="dish_title">pizza de queijo</h3>
-
-                        <span class="dish_description">descrição da pizza de queijo</span>
-
-                        <div class="dish_rate">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <span>(500+)</span>
-                        </div>
-
-                        <div class="dish_price">
-                            <h4>R$20,00</h4>
-                            <button class="btn_default">
-                                <i class="fa-solid fa-basket-shopping"></i>
-                            </button>
+                    <div class="dish_price">
+                        <h4>R$20,00</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img class="dish_image" id="pizzaqueijo" src="src/img/pizzaqueijo.png" alt="pizza de queijo">
+                    <h3 class="dish_title">pizza de queijo</h3>
+                    <span class="dish_description">descrição da pizza de queijo</span>
+                    <div class="dish_rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish_price">
+                        <h4>R$20,00</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <img id="testimonial_pizzaiolo" src="src/img/pizzaiolo.png" alt="pizzaiolo">
+            <div id="testimomials_content">
+                <h2 class="section_title"> Depoimentos</h2>
+                <h3 class="section_subtitle"> O que os clientes falam sobre nós</h3>
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img class="feedback_avatar" src="src/img/avatarpessoaanonima.png" alt="feedback">
+                        <div class="feedback_content">
+                            <p>
+                                Fulana
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "As pizzas são realmente saborosas!"
+                            </p>
                         </div>
                     </div>
                 </div>
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img class="feedback_avatar" src="src/img/avatarpessoaanonima.png" alt="feedback">
+                        <div class="feedback_content">
+                            <p>
+                                Fulana
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "As pizzas são realmente saborosas!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn_default">
+                    Ver as avaliações 
+                </button>
             </div>
         </section>
     </main>
