@@ -21,7 +21,7 @@
 # 🍕 Sobre a página de pizza 
 
 Essa é uma landing page responsiva e com animações usando HTML, CSS e JavaScript, com foco em JQuery. Com o uso da biblioteca Scroll Reveal para adicionar animações de rolagem à nossa página, tornando-a mais dinâmica e atrativa para os usuários.
-Além disso, tem um menu com troca de abas que se ajusta conforme você rola a página, facilitando a navegação entre as seções.
+Além disso, possuí um menu com troca de abas que se ajusta conforme você rola a página, facilitando a navegação entre as seções.
 
 ---
 <img width="1902" height="947" alt="paginaresponsivafundo" src="https://github.com/user-attachments/assets/4642644f-522d-43b5-99b4-564f5e14d993" />
