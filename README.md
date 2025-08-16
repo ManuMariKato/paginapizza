@@ -42,4 +42,14 @@ Além disso, possuí um menu com troca de abas que se ajusta conforme você rola
             title="Video-Larissa-Kich" 
             src="https://custom-icon-badges.demolab.com/badge/-YoutubeLarissaKich-CA6822?style=for-the-badge&logo=youtube&logoColor=white"
         />
-    </a>
+</a>
+
+---
+## 📚 Biblioteca Utilizada
+<a href="https://scrollrevealjs.org/api/rotate.html">
+        <img 
+            alt="Alura" 
+            title="Alura" 
+            src="https://img.shields.io/badge/Scroll%20Reveal%20-F56533"
+        />
+</a>
