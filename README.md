@@ -29,9 +29,11 @@ Além disso, possuí um menu com troca de abas que se ajusta conforme você rola
 ---
 ## 🔌 Tecnologias usadas
 
-- `HTML`
-- `CSS`
-- `JAVASCRIPT`
+<div>
+  <img src="https://img.shields.io/badge/HTML-db322c?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-ffe605?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/CSS-dbaa2c?&style=for-the-badge&logo=css&logoColor=white">
+</div>
 
 ---
 ## 🎥 Créditos
@@ -48,8 +50,8 @@ Além disso, possuí um menu com troca de abas que se ajusta conforme você rola
 ## 📚 Biblioteca Utilizada
 <a href="https://scrollrevealjs.org/api/rotate.html">
         <img 
-            alt="Alura" 
-            title="Alura" 
+            alt="ScrollReveal" 
+            title="ScrollReveal" 
             src="https://img.shields.io/badge/Scroll%20Reveal%20-F56533"
         />
 </a>
