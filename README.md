@@ -54,4 +54,12 @@ Além disso, possuí um menu com troca de abas que se ajusta conforme você rola
             title="ScrollReveal" 
             src="https://img.shields.io/badge/Scroll%20Reveal%20-F56533"
         />
+        
+</a>
+<a href="https://www.softr.io/tools/svg-wave-generator">
+        <img 
+            alt="WaveGenerator" 
+            title="WaveGenerator" 
+            src="https://img.shields.io/badge/Wave%20Generator%20-f0b924"
+        />
 </a>
