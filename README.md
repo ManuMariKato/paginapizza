@@ -27,7 +27,7 @@ Além disso, possuí um menu com troca de abas que se ajusta conforme você rola
 <img width="1902" height="947" alt="paginaresponsivafundo" src="https://github.com/user-attachments/assets/4642644f-522d-43b5-99b4-564f5e14d993" />
 
 ---
-## 🔌 Tecnologias usadas
+## 🔌 Tecnologias
 
 <div>
   <img src="https://img.shields.io/badge/HTML-db322c?style=for-the-badge&logo=html5&logoColor=white">
